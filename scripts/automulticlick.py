@@ -1,6 +1,5 @@
 import pyautogui
 import threading
-import time
 import keyboard
 
 # Define a function that simulates a mouse click at a given location
