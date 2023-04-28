@@ -7,7 +7,7 @@ def click_location(location):
     pyautogui.moveTo(location[0], location[1])
     pyautogui.click()
 
-# Define a list of target locations and time intervals
+# Define a list of target locations and time intervals [((x1, y1), interval1), ((x2, y2), interval2), ...))]
 locations_and_intervals = [((500, 500), 1), ((500, 600), 2)]
 
 # Define a function that schedules the execution of a mouse click simulation
